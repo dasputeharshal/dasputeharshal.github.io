@@ -6,7 +6,6 @@
     --green : #1dba08;
     --black:#130f40;
     --light-color:#666;
-    /* --box-shadow:0 .5rem 1.5rem rgb(0, 0, 0);     */
     --border:.2rem solid rgba(0,0,0,.1);
     --outline:.1rem solid rgba(0,0,0,.1);
     --outline-hover:.2rem solid var(--black);
@@ -31,7 +30,7 @@ html{
 }
 
 body{
-    background:rgb(231, 231, 231);
+    background:rgb(216, 216, 216);
 }
 
 section{
@@ -88,7 +87,7 @@ section{
     align-items: center;
     justify-content: space-around;
     padding:0px;
-    background:rgb(251, 251, 251);
+    background:rgb(255, 255, 255);
     box-shadow: var(--box-shadow);
 }
 
@@ -385,6 +384,8 @@ section{
 
 .products .product-slider .box img{
     height:20rem;
+    border-radius: 10px;
+    box-shadow: #666 3px 3px 10px;
 }
 
 .products .product-slider .box h3{
